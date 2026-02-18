@@ -39,8 +39,10 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=kamildeniz&show_icons=true&hide_title=true" alt="stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamildeniz&layout=compact&hide_title=true" alt="top languages" />
+## Languages
+
+<img src="./metrics.languages.svg" />
+
 </p>
 
 ---
