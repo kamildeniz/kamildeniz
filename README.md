@@ -31,11 +31,11 @@
 
 - **Project Name 1** — short 1-line description  
   `ASP.NET Core` • `PostgreSQL` • `EF Core`  
-  Repo: https://github.com/kamildeniz/REPO1
+  Repo: https://github.com/kamildeniz/ETicaretAPI
 
 - **Project Name 2** — short 1-line description  
   `Angular` • `REST API`  
-  Repo: https://github.com/kamildeniz/REPO2
+  Repo: https://github.com/kamildeniz/LibraryManagementAPI
 
 ## 📊 GitHub Stats
 <p align="center">
