@@ -3,7 +3,7 @@ name: Metrics (Languages %)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"   # daily (UTC) ~ TR 09:00
+    - cron: "0 6 * * *"
 
 permissions:
   contents: write
@@ -14,19 +14,19 @@ jobs:
     steps:
       - name: Generate languages metrics
         uses: lowlighter/metrics@latest
-  with:
-  token: ${{ secrets.METRICS_TOKEN }}
-  committer_token: ${{ secrets.METRICS_TOKEN }}
-  filename: metrics.languages.svg
-  base: ""
-  template: classic
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.languages.svg
+          base: ""
+          template: classic
 
-  repositories_affiliations: owner
+          repositories_affiliations: owner
 
-  plugin_languages: yes
-  plugin_languages_indepth: yes
-  plugin_languages_sections: most-used
-  plugin_languages_limit: 12
-  plugin_languages_details: percentage, bytes-size
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 12
+          plugin_languages_details: percentage, bytes-size
 
-  plugin_languages_ignored_repos: kamildeniz
+          plugin_languages_ignored_repos: kamildeniz
